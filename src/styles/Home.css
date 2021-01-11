@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__header {
+    border-bottom: 0 solid black;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__headerLeft>img {
+    object-fit: cover;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body>img {
+    object-fit: contain;
+    height: 50px;
+}
